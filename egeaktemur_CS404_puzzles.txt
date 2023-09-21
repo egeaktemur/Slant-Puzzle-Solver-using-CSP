@@ -1,0 +1,128 @@
+['0', '1', '*', '*', '*', '*']
+['*', '1', '*', '3', '1', '*']
+['*', '2', '2', '*', '2', '*']
+['*', '2', '2', '*', '*', '1']
+['*', '*', '*', '2', '1', '*']
+['*', '2', '*', '2', '*', '*']
+0 1 * * * *
+ / / \ / \ 
+* 1 * 3 1 *
+ \ / \ \ \ 
+* 2 2 * 2 *
+ \ / \ \ \ 
+* 2 2 * * 1
+ \ / \ / \ 
+* * * 2 1 *
+ \ / \ / / 
+* 2 * 2 * *
+CpSolverResponse summary:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+integers: 4
+booleans: 50
+conflicts: 0
+branches: 0
+propagations: 50
+integer_propagations: 2
+restarts: 0
+lp_iterations: 0
+walltime: 0.0146619
+usertime: 0.0146622
+deterministic_time: 8.32e-06
+gap_integral: 0
+solution_fingerprint: 0xe311fb24b93a948
+
+['0', '1', '*', '*', '*', '*']
+['*', '1', '*', '3', '1', '*']
+['*', '2', '2', '*', '2', '*']
+['*', '2', '2', '*', '*', '1']
+['*', '*', '*', '2', '1', '*']
+['*', '2', '*', '2', '*', '*']
+* 1 2 * * * 2 1 1 * 1
+ / / \ / / / \ \ \ / 
+* 3 * 2 * * * * * * *
+ / \ \ / / \ \ \ \ / 
+1 1 * * * 2 * * * 3 *
+ / / \ / / \ \ \ / / 
+1 2 * 3 * 1 * * 3 * *
+ / / \ \ / / \ \ \ / 
+1 2 1 3 * 2 2 1 * * 1
+ / / / \ / / \ / / / 
+* * * 2 3 * * 2 * 3 0
+ / \ / \ \ / \ / / \ 
+* 1 * * 1 * 1 4 * * 1
+ / / / \ / / / \ / \ 
+1 3 * 1 * * 1 1 3 * 1
+ / \ / / \ \ / / / \ 
+1 2 3 * * 2 * * 3 * *
+ / \ \ / / / / / \ \ 
+1 2 2 * * * 2 1 * * *
+ / \ \ / \ \ \ / / \ 
+1 * * * 0 * * * * 0 *
+CpSolverResponse summary:
+status: FEASIBLE
+objective: 0
+best_bound: 0
+integers: 28
+booleans: 200
+conflicts: 0
+branches: 4932
+propagations: 17872
+integer_propagations: 22632
+restarts: 867
+lp_iterations: 8
+walltime: 0.342774
+usertime: 0.342774
+deterministic_time: 0.00513996
+gap_integral: 0
+solution_fingerprint: 0xc42f393d2b0e502c
+
+['0', '1', '*', '*', '*', '*']
+['*', '1', '*', '3', '1', '*']
+['*', '2', '2', '*', '2', '*']
+['*', '2', '2', '*', '*', '1']
+['*', '*', '*', '2', '1', '*']
+['*', '2', '*', '2', '*', '*']
+1 * 2 * 0 1 * 2 1 * 1 * 0
+ \ / \ \ / / / \ \ \ \ \ 
+* * 2 2 * * * 2 * * * 2 *
+ / / \ \ \ \ / \ / / \ \ 
+2 * * 3 * * 3 * * 3 1 * *
+ \ / / \ \ \ \ \ / \ \ \ 
+1 * * 2 1 3 * * * 1 * 2 1
+ \ / / \ / \ / \ \ \ \ \ 
+1 * 2 2 * 1 * 2 1 3 * * 2
+ \ / / \ / / / \ / \ \ / 
+* * 2 * 3 * * 2 * * * 4 *
+ \ / / / / / / \ \ \ / \ 
+* 3 * * * 2 2 2 * 2 2 * *
+ / / / / / / / \ \ \ / / 
+* * * 2 3 2 2 1 * 2 3 * *
+ / / / / \ \ \ \ / / / / 
+2 * 2 * * 1 * * 2 3 * 2 1
+ \ / / / \ / / \ / \ / / 
+1 3 * 3 * * * 1 * 2 * 1 1
+ \ \ / \ \ \ \ \ / \ \ / 
+* * * 2 * * 3 * 3 2 * * 0
+ \ / / \ / / \ / / \ \ \ 
+* 4 * * 4 * 1 3 2 1 2 * *
+ / \ / / \ \ \ \ \ \ \ / 
+* * * 1 * * * * * * * 2 *
+CpSolverResponse summary:
+status: FEASIBLE
+objective: 0
+best_bound: 0
+integers: 68
+booleans: 288
+conflicts: 0
+branches: 55804
+propagations: 335792
+integer_propagations: 391376
+restarts: 5876
+lp_iterations: 1954
+walltime: 4.16319
+usertime: 4.16319
+deterministic_time: 0.160216
+gap_integral: 0
+solution_fingerprint: 0x4a4d7a0f3ba7746
